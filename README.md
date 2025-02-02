@@ -15,7 +15,6 @@
 
 ## Features
 
-- AI-powered chat interface for research assistance
 - Real-time conversation with AI using Langflow
 - Chat history management with Supabase
 - User authentication with Supabase
