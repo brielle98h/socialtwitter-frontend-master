@@ -33,6 +33,7 @@ export async function middleware(request: NextRequest) {
           for (const [name, value] of Object.entries(cookies)) {
             response.cookies.set({
               name,
+              context,
               value,
             })
           }
